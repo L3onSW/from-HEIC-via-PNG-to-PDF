@@ -58,7 +58,3 @@ for fname in heics:
         time.sleep(1)
     except Exception as e:
         print(f"[Error] 変換に失敗しました {fname}: {e}")
-
-# 最終的なメモリ使用量の表示
-print("最終的なメモリ使用量:")
-print_memory_usage()
